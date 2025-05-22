@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Estado_Capitales</string>
+    <string name="titleLoc">Seleccione un estado</string>
+    <string name="botonec">Estados y sus Capitales</string>
+    <string name="creditos">Creditos</string>
+    <string name="creador">Yahir Ricardo Mercado Romero</string>
+    <string name="btnregresar">Back</string>
+    <string name="tituloec">Estados y Capitales</string>
+</resources>

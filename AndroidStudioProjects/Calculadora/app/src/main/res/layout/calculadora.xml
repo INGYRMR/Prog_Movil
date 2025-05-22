@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Pantalla -->
+    <EditText
+        android:id="@+id/pantalla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="none"
+        android:gravity="end"
+        android:focusable="false"
+        android:textSize="32sp"
+        android:padding="12dp"
+        android:background="#EEEEEE"
+        android:textColor="#000000" />
+
+    <!-- Fila 1: C, /, * -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonClear"
+            android:text="C"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonDivision"
+            android:text="/"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonMultiplicacion"
+            android:text="*"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Fila 2: 7 8 9 - -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/button7" android:text="7"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/button8" android:text="8"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/button9" android:text="9"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/buttonResta" android:text="-"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Fila 3: 4 5 6 + -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/button4" android:text="4"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/button5" android:text="5"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/button6" android:text="6"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/buttonSuma" android:text="+"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Fila 4: 1 2 3 = -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/button1" android:text="1"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/button2" android:text="2"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/button3" android:text="3"
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/buttonIgual" android:text="="
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Fila 5: 0 . -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/button0" android:text="0"
+            android:layout_weight="2" android:layout_width="0dp" android:layout_height="wrap_content" />
+        <Button android:id="@+id/buttonPunto" android:text="."
+            android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

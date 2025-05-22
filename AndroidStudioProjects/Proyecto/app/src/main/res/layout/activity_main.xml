@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <View
+        android:id="@+id/luz_roja"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="#55000000"
+        android:layout_gravity="center" />
+
+    <View
+        android:id="@+id/luz_amarilla"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="#55000000"
+        android:layout_gravity="center" />
+
+    <View
+        android:id="@+id/luz_verde"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="8dp"
+        android:background="#55000000"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnrojo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rojo" />
+
+    <Button
+        android:id="@+id/btnamarillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amarillo" />
+
+    <Button
+        android:id="@+id/btnverde"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Verde" />
+
+</LinearLayout>
