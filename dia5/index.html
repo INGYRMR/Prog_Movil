@@ -1,0 +1,118 @@
+<!-- Uso de tablas -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Horario Semanal </title>
+</head>
+<body>
+
+    <h1> Horario semanal </h1> <!-- Titulo principal de nuestra pagina -->
+
+    <p> <!-- Parrafo de introduccion -->
+    
+        Ejemplo del uso de tablas en HTML
+    
+    </p>
+
+    <!-- El contenedor principal de nuestra de tabla -->
+    <table border="5">  <!-- Atributo border sirve para definir el borde de nuestra tabla -->
+
+        <!-- Encabezado de tabla -->
+        <thead> <!-- Contenedor para nuestro encabezado de tabla-->
+
+            <tr>   <!-- Se encargan de crear o definir la fila de nuestra tabla-->
+                
+                <th> Día </th> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+                
+                <th> Materia </th> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+                
+                <th> Horario </th> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+                
+                <th> Aula </th> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+            
+            </tr> <!-- Cierre de la fila -->
+
+        </thead> <!-- Cierre del contenedor del encabezado de tabla-->
+
+        <!-- Cuerpo de la tabla --> 
+        <tbody> <!-- Es un contenedor del cuerpo de nuestra tabla  -->
+
+            <tr> <!-- Se encargan de crear o definir la fila de nuestra tabla-->
+            
+                <td rowspan="2"> Lunes </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+                <!-- Atributo rowspan sirve para unir celdas en filas -->
+            
+                <td> HTML  </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+            
+                <td> 10:00 - 11:00 </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+            
+                <td> 101 </td>  <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+            
+            </tr> <!-- Cierre de la fila -->
+            
+            <tr>   <!-- Se encargan de crear o definir la fila de nuestra tabla-->
+            
+                <td> CSS  </td>  <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+            
+                <td> 11:00 - 12:00 </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+            
+                <td> 101 </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+            
+            </tr> <!-- Cierre de la fila -->
+
+            <tr>   <!-- Se encargan de crear o definir la fila de nuestra tabla-->
+
+                <td> Miercoles </td>  <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+
+                <td> JavaScript  </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+
+                <td> 10:00 - 11:00 </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+
+                <td> 102 </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+
+            </tr> <!-- Cierre de la fila -->
+
+            <tr>  <!-- Se encargan de crear o definir la fila de nuestra tabla-->
+
+                <td> Viernes </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+
+                <td> Python  </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+
+                <td> 11:00 - 12:00 </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+
+                <td> 103 </td> <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+
+            </tr> <!-- Cierre de la fila -->
+
+        </tbody>  <!-- Cierre del contenedor del cuerpo de tabla-->
+
+        <!-- Pie de tabla --> 
+        <tfoot> <!-- Contenedor para nuestro pie de tabla--> 
+
+            <tr> <!-- Se encargan de crear o definir la fila de nuestra tabla-->
+
+                <th colspan="4"> <!-- Atributo colspan sirve para unir celdas en columnas -->
+            
+                    Total de materias: 4 <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+            
+                </th> <!-- Cierre de la celda -->
+        
+            </tr> <!-- Cierre de la fila -->
+
+            <tr> <!-- Se encargan de crear o definir la fila de nuestra tabla-->
+            
+                <td colspan="4"> <!-- Atributo colspan sirve para unir celdas en columnas -->
+            
+                    Ejemplo de pie de tabla <!-- Se encargan de mostrar la informacion de nuestra tabla-->
+            
+                </td> <!-- Cierre de la celda -->
+            
+            </tr> <!-- Cierre de la fila -->
+
+        </tfoot> <!-- Cierre del contenedor del pie de tabla-->
+
+    </table> <!-- Cierre del contenedor principal de nuestra de tabla -->
+</body>
+</html>
